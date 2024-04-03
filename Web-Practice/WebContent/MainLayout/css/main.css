@@ -1,0 +1,6 @@
+@charset "UTF-8";
+@font-face {font-family: '프리텐다드'; src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    		font-weight: 800; font-style: normal;}
+body {margin: 0px;}
+div.hover-text {font-family: 맑은 고딕; font-size: 10pt; position: absolute; background-color: white; border: 1px solid;
+				padding: 3px 5px; display: none;}
