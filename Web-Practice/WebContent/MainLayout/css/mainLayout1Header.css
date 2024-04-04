@@ -1,9 +1,10 @@
 @charset "UTF-8";
 div.header {background-color: #cedcffb8; position: fixed; width: 100%; padding: 20px; display: flex; justify-content: space-between;}
 div.header-title-div {font-family: 프리텐다드; font-size: 15pt; margin-left: 55px;}
-a {text-decoration: none;}
+a {text-decoration: none; color: black;}
 a:visited {text-decoration: none;}
 a.header-title, a.header-button {cursor: pointer;}
 a.header-title:hover + div.hover-text {display: block;}
 div.header-menu-div {display: flex; margin-right: 30px;}
 a.header-button {border: 1px solid; padding: 7px 10px; margin: 0px 10px; border-radius: 5px; font-family: '프리텐다드'; font-size: 13pt;}
+a.header-button:hover {background-color: #abbaff;}

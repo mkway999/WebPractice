@@ -1,2 +1,5 @@
 @charset "UTF-8";
 div.main-body {padding-top: 100px;}
+div#carousel-div {display: flex; justify-content: center;}
+div.carousel-inner {width: 500px;}
+div.carousel-item {border: 1px solid; width: 500px; padding: 20px 10px;}
