@@ -4,3 +4,7 @@
 body {margin: 0px;}
 div.hover-text {font-family: 맑은 고딕; font-size: 10pt; position: absolute; background-color: white; border: 1px solid;
 				padding: 3px 5px; display: none;}
+.scroll-wrap {overflow: hidden;}
+.scroll-on {padding: 50px 0px; font-size: 24pt; font-family:프리텐다드; text-align: center; opacity: 0; transition: all 1s;}
+.scroll-on.active {opacity: 1 !important; transform: translate(0,0) !important;}
+.scroll-on.type-top {transform:translate(0, -50px);}

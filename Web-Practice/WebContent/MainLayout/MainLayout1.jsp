@@ -14,6 +14,8 @@
 <link rel="stylesheet" href="css/mainLayout1Header.css" />
 <link rel="stylesheet" href="css/mainLayout1.css" />
 <link rel="stylesheet" href="css/main.css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript" src="js/mainLayout1.js"></script>
 </head>
 <body>
 
@@ -45,7 +47,20 @@
 	  </button>
 	   -->
 	</div>
+	
 
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<div class="scroll-wrap">
+		<div class="scroll-on type-top">
+			위에서 나와라
+		</div>
+	</div>
 	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
