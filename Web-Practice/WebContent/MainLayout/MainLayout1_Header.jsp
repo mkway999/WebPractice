@@ -4,14 +4,6 @@
 	request.setCharacterEncoding("UTF-8");
 	String cp = request.getContextPath();
 %>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>MainLayout1_Header.jsp</title>
-</head>
-<body>
-
 <div class="header">
 	<div class="header-title-div">
 		<a class="header-title">MainLayout1</a>
@@ -26,6 +18,3 @@
 		</div>
 	</div>
 </div>
-
-</body>
-</html>
