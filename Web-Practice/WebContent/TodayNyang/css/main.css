@@ -1,6 +1,5 @@
 @charset "UTF-8";
 body {margin: 0px;}
-#header-wrap {position: fixed; height: 90px; width: 100%;}
 div.header-container {width: 90%; margin: 0px auto;}
 h1.header-logo {float: left;}
 ul.header-menu-list {display: inline-block;}
