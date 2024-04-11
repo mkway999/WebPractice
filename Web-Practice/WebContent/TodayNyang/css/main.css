@@ -1,8 +1,18 @@
 @charset "UTF-8";
 body {margin: 0px;}
-div.header-container {width: 90%; margin: 0px auto;}
+
+
+#header-wrap {height: 80px; width: 100%;}
+div.header-container {width: 90%; margin: 0px auto; height: inherit;}
 h1.header-logo {float: left;}
+nav.header-menu-wrap {left: 50%; position: absolute; transform: translateX(-50%);}
+.header-menu-wrap>ul {white-space: nowrap;}
+.header-menu-wrap>ul>li>a {line-height: 45px;}
 ul.header-menu-list {display: inline-block;}
 li.header-menu {display: inline-block;}
 ul.header-menu-sub {display: none;}
 a.menu-link {padding: 0 25px;}
+span#header-title {color: #43627F;}
+div.header-sub-menu {float: right; height: inherit;}
+a.header-login {line-height: 45px; display: inline-block;}
+

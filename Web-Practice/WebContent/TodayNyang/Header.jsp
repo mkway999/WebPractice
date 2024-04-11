@@ -6,7 +6,7 @@
 %>
 <div class="header-container">
 	<h1 class="header-logo">
-		<a>로고 들어갈거지롱</a>
+		<a class="header-link"><span id="header-title">오늘이냥</span></a>
 	</h1>
 	<nav class="header-menu-wrap">
 		<ul class="header-menu-list">
@@ -32,4 +32,9 @@
 			</li>
 		</ul>
 	</nav>
+	<div class="header-sub-menu">
+		<a class="header-login">로그인</a>
+		<button>search</button>
+		<button>blog</button>
+	</div>
 </div>

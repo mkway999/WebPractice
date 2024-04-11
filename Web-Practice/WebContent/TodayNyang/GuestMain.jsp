@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>오늘이냥</title>
+<title>반려동물 일정관리 - 오늘이냥</title>
 <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
