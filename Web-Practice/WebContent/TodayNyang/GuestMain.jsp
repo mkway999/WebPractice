@@ -10,6 +10,8 @@
 <meta charset="UTF-8">
 <title>반려동물 일정관리 - 오늘이냥</title>
 <link rel="stylesheet" href="css/main.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript" src="js/header.js"></script>
 </head>
 <body>
 <header id="header-wrap">

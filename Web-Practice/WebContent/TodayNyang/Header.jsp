@@ -11,7 +11,7 @@
 	<nav class="header-menu-wrap">
 		<ul class="header-menu-list">
 			<li class="header-menu">
-				<a class="menu-link">메뉴1</a>
+				<a class="menu-link">나의일정</a>
 				<ul class="header-menu-sub">
 					<li><a>서브메뉴1</a></li>
 					<li><a>서브메뉴2</a></li>
@@ -19,22 +19,41 @@
 				</ul>
 			</li>
 			<li class="header-menu">
-				<a class="menu-link">메뉴2</a>
+				<a class="menu-link">커뮤니티</a>
+				<ul class="header-menu-sub">
+					<li><a>서브메뉴1</a></li>
+					<li><a>서브메뉴2</a></li>
+					<li><a>서브메뉴3</a></li>
+				</ul>
 			</li>
 			<li class="header-menu">
-				<a class="menu-link">메뉴3</a>
+				<a class="menu-link">쇼핑하기</a>
+				<ul class="header-menu-sub">
+					<li><a>서브메뉴1</a></li>
+					<li><a>서브메뉴2</a></li>
+					<li><a>서브메뉴3</a></li>
+				</ul>
 			</li>
 			<li class="header-menu">
-				<a class="menu-link">메뉴4</a>
+				<a class="menu-link">문의하기</a>
+				<ul class="header-menu-sub">
+					<li><a>서브메뉴1</a></li>
+					<li><a>서브메뉴2</a></li>
+					<li><a>서브메뉴3</a></li>
+				</ul>
 			</li>
 			<li class="header-menu">
-				<a class="menu-link">메뉴5</a>
+				<a class="menu-link">공지사항</a>
+				<ul class="header-menu-sub">
+					<li><a>서브메뉴1</a></li>
+					<li><a>서브메뉴2</a></li>
+					<li><a>서브메뉴3</a></li>
+				</ul>
 			</li>
 		</ul>
 	</nav>
 	<div class="header-sub-menu">
-		<a class="header-login">로그인</a>
-		<button>search</button>
-		<button>blog</button>
+		<a class="header-sign header-sign-in">로그인</a>
+		<a class="header-sign header-sign-up">회원가입</a>
 	</div>
 </div>

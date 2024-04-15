@@ -1,18 +1,18 @@
 @charset "UTF-8";
 body {margin: 0px;}
 
-
 #header-wrap {height: 80px; width: 100%;}
 div.header-container {width: 90%; margin: 0px auto; height: inherit;}
 h1.header-logo {float: left;}
-nav.header-menu-wrap {left: 50%; position: absolute; transform: translateX(-50%);}
-.header-menu-wrap>ul {white-space: nowrap;}
-.header-menu-wrap>ul>li>a {line-height: 45px;}
-ul.header-menu-list {display: inline-block;}
-li.header-menu {display: inline-block;}
-ul.header-menu-sub {display: none;}
+nav.header-menu-wrap {left: 50%; position: absolute; transform: translateX(-50%); height: inherit;}
+.header-menu-wrap>ul>li>a {line-height: 80px; display: block; height: 100%; font-size: 11pt;}
+ul.header-menu-list {display: inline-block; height: inherit; margin: 0; padding: 0; white-space: nowrap;}
+li.header-menu {display: inline-block; height: inherit; vertical-align: top;}
+ul.header-menu-sub {display: none; padding: 20px 0;}
+ul.header-menu-sub>li {list-style: none;}
+ul.header-menu-sub>li>a {font-size: 10pt; display: block; width: 100%; padding: 10px 0; padding-left: 25px;}
 a.menu-link {padding: 0 25px;}
 span#header-title {color: #43627F;}
 div.header-sub-menu {float: right; height: inherit;}
-a.header-login {line-height: 45px; display: inline-block;}
+a.header-sign {line-height: 80px; display: inline-block;}
 
