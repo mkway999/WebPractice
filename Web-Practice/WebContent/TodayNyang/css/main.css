@@ -1,11 +1,13 @@
 @charset "UTF-8";
 body {margin: 0px;}
+a {text-decoration: none}
+a:visited {text-decoration: none; color: inherit;}
 
 #header-wrap {height: 80px; width: 100%;}
 div.header-container {width: 90%; margin: 0px auto; height: inherit;}
 h1.header-logo {float: left;}
 nav.header-menu-wrap {left: 50%; position: absolute; transform: translateX(-50%); height: inherit;}
-.header-menu-wrap>ul>li>a {line-height: 80px; display: block; height: 100%; font-size: 11pt;}
+.header-menu-wrap>ul>li>a {line-height: 80px; display: block; height: 100%; font-size: 11pt; border-bottom: 1px solid;}
 ul.header-menu-list {display: inline-block; height: inherit; margin: 0; padding: 0; white-space: nowrap;}
 li.header-menu {display: inline-block; height: inherit; vertical-align: top;}
 ul.header-menu-sub {display: none; padding: 20px 0;}
