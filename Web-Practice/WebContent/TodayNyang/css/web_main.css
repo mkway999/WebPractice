@@ -1,0 +1,5 @@
+@charset "UTF-8";
+.scroll-wrap {overflow: hidden;}
+.scroll-on {padding: 50px 0px; font-size: 24pt;text-align: center; opacity: 0; transition: all 1s;}
+.scroll-on.active {opacity: 1 !important; transform: translate(0,0) !important;}
+.scroll-on.type-top {transform:translate(0, -50px);}

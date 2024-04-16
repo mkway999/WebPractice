@@ -13,41 +13,41 @@
 			<li class="header-menu">
 				<a class="menu-link" href="">나의일정</a>
 				<ul class="header-menu-sub">
-					<li><a>서브메뉴1</a></li>
-					<li><a>서브메뉴2</a></li>
-					<li><a>서브메뉴3</a></li>
+					<li><a href="">서브메뉴1</a></li>
+					<li><a href="">서브메뉴2</a></li>
+					<li><a href="">서브메뉴3</a></li>
 				</ul>
 			</li>
 			<li class="header-menu">
 				<a class="menu-link" href="">커뮤니티</a>
 				<ul class="header-menu-sub">
-					<li><a>서브메뉴1</a></li>
-					<li><a>서브메뉴2</a></li>
-					<li><a>서브메뉴3</a></li>
+					<li><a href="">서브메뉴1</a></li>
+					<li><a href="">서브메뉴2</a></li>
+					<li><a href="">서브메뉴3</a></li>
 				</ul>
 			</li>
 			<li class="header-menu">
 				<a class="menu-link" href="">쇼핑하기</a>
 				<ul class="header-menu-sub">
-					<li><a>서브메뉴1</a></li>
-					<li><a>서브메뉴2</a></li>
-					<li><a>서브메뉴3</a></li>
+					<li><a href="">서브메뉴1</a></li>
+					<li><a href="">서브메뉴2</a></li>
+					<li><a href="">서브메뉴3</a></li>
 				</ul>
 			</li>
 			<li class="header-menu">
 				<a class="menu-link" href="">문의하기</a>
 				<ul class="header-menu-sub">
-					<li><a>서브메뉴1</a></li>
-					<li><a>서브메뉴2</a></li>
-					<li><a>서브메뉴3</a></li>
+					<li><a href="">서브메뉴1</a></li>
+					<li><a href="">서브메뉴2</a></li>
+					<li><a href="">서브메뉴3</a></li>
 				</ul>
 			</li>
 			<li class="header-menu">
 				<a class="menu-link" href="">공지사항</a>
 				<ul class="header-menu-sub">
-					<li><a>서브메뉴1</a></li>
-					<li><a>서브메뉴2</a></li>
-					<li><a>서브메뉴3</a></li>
+					<li><a href="">서브메뉴1</a></li>
+					<li><a href="">서브메뉴2</a></li>
+					<li><a href="">서브메뉴3</a></li>
 				</ul>
 			</li>
 		</ul>
