@@ -20,7 +20,7 @@
 	<c:import url="Header.jsp"></c:import>
 </header>
 
-<div class="main-container">
+<div class="main-container" id="main">
 메인 바디 시작 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br>

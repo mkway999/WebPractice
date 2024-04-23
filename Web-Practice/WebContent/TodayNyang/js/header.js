@@ -4,9 +4,24 @@ $(document).ready(function(){
 	const header = $("#header-wrap");
 	// 헤더의 높이 
 	const headerHeight = $(header).height();
-	alert(headerHeight);
+	//alert(headerHeight);
+	//alert(document.getElementById("main").scrollTop);
+	// 메인 컨텐츠 요소
+	const mainContainer = document.getElementById("main");
 	
-	
+	$(window).on('scroll', function()
+	{
+		const mainHeight = mainContainer.scrollTop;
+		//alert(document.documentElement.scrollTop);
+		if (document.documentElement.scrollTop >= headerHeight)
+		{
+			$(header).css("border-bottom", "1px solid black");
+		}
+		else
+		{
+			$(header).css("border-bottom", "none");
+		}
+	});
 	
 	$(".header-menu-list>li").mouseenter(function(){
 		$(".header-menu-sub").stop().slideDown(300);
