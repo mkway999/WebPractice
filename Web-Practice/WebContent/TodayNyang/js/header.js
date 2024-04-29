@@ -25,12 +25,12 @@ $(document).ready(function(){
 	
 	$(".header-menu-list>li").mouseenter(function(){
 		$(".header-menu-sub").stop().slideDown(300);
-		$(this).css("border-bottom", "2px solid #ededed");
+		$(this).find("a").find("span").css({"border-bottom":"2px solid #43627F", "font-weight":"bold"});
 	});
 	
 	$(".header-menu-list>li").mouseleave(function(){
 		$(".header-menu-sub").stop().slideUp(300);
-		$(this).css("border-bottom", "none");
+		$(this).find("a").find("span").css({"border-bottom":"none", "font-weight":"normal"});
 	});
 	
 	$(".header-menu-list>li>ul>li").mouseenter(function(){

@@ -1,4 +1,20 @@
 @charset "UTF-8";
+
+/* 웹폰트 */
+@font-face {
+    font-family: '평창평화체';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '프리텐다드';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {margin: 0px;}
 a {text-decoration: none}
 a:visited {text-decoration: none; color: inherit;}
@@ -9,16 +25,42 @@ div.header-container {width: 90%; margin: 0px auto; height: inherit;}
 h1.header-logo {float: left;}
 nav.header-menu-wrap {left: 50%; position: absolute; transform: translateX(-50%); height: inherit;}
 .header-menu-wrap>ul>li>a {line-height: 80px; display: block; height: 100%; font-size: 11pt;}
+.header-menu-wrap>ul>li>a>span {padding-bottom: 5px; font-size: 12pt;}
 ul.header-menu-list {display: inline-block; height: inherit; margin: 0; padding: 0; white-space: nowrap;}
 li.header-menu {display: inline-block; height: inherit; vertical-align: top;}
-ul.header-menu-sub {display: none; padding: 20px 0;}
+ul.header-menu-sub {display: none; padding: 0;}
 ul.header-menu-sub>li {list-style: none;}
 ul.header-menu-sub>li>a {font-size: 10pt; display: block; width: 100%; padding: 10px 0; padding-left: 25px;}
 a.menu-link {padding: 0 25px;}
-span#header-title {color: #43627F;}
+span.header-title {color: #43627F; font-family: 평창평화체;}
 div.header-sub-menu {float: right; height: inherit;}
 a.header-sign {line-height: 80px; display: inline-block;}
 
 /* main content */
 div.main-container {padding-top: 80px;}
+
+/* 반응형 */
+/* 데스크탑 */
+@media screen and (min-width: 1024px)
+{
+	div.header-container>h1>a>span#d-title {display: inline-block;}
+	div.header-container>h1>a>span#m-title {display: none;}
+	div.header-container>nav>ul#d-menu-list {display: block;}
+}
+
+/* 태블릿 */
+@media screen and (max-width: 1023px)
+{
+	div.header-container>h1>a>span#d-title {display: inline-block;}
+	div.header-container>h1>a>span#m-title {display: none;}
+	div.header-container>nav>ul#d-menu-list {display: block;}
+}
+
+/* 모바일 */
+@media screen and (max-width: 767px)
+{
+	div.header-container>h1>a>span#m-title {display: inline-block;}
+	div.header-container>h1>a>span#d-title {display: none;}
+	div.header-container>nav>ul#d-menu-list {display: none;}
+}
 
