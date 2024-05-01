@@ -25,11 +25,13 @@ $(document).ready(function(){
 	
 	$(".header-menu-list>li").mouseenter(function(){
 		$(".header-menu-sub").stop().slideDown(300);
+		$(".header-background").stop().slideDown(300);
 		$(this).find("a").find("span").css({"border-bottom":"2px solid #43627F", "font-weight":"bold"});
 	});
 	
 	$(".header-menu-list>li").mouseleave(function(){
 		$(".header-menu-sub").stop().slideUp(300);
+		$(".header-background").stop().slideUp(300);
 		$(this).find("a").find("span").css({"border-bottom":"none", "font-weight":"normal"});
 	});
 	
@@ -41,6 +43,13 @@ $(document).ready(function(){
 		$(this).css("font-weight", "normal");
 	});
 	
-	
-	
 });
+
+function openMenu() {
+	document.getElementById("header-overlay-wrap").style.width = "100%";
+}
+
+function closeMenu() {
+	document.getElementById("header-overlay-wrap").style.width = "0";
+	
+}

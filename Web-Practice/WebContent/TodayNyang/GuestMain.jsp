@@ -11,6 +11,7 @@
 <title>반려동물 일정관리 - 오늘이냥</title>
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/web_main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript" src="js/header.js"></script>
 <script type="text/javascript" src="js/web_main.js"></script>

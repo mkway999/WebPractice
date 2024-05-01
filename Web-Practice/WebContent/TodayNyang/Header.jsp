@@ -11,8 +11,8 @@
 			<span class="header-title" id="m-title">냥!</span>
 		</a>
 	</h1>
-	<nav class="header-menu-wrap">
-		<ul class="header-menu-list" id="d-menu-list">
+	<nav class="header-menu-wrap" id="d-menu-list">
+		<ul class="header-menu-list">
 			<li class="header-menu">
 				<a class="menu-link" href=""><span>나의일정</span></a>
 				<ul class="header-menu-sub">
@@ -55,8 +55,25 @@
 			</li>
 		</ul>
 	</nav>
-	<div class="header-sub-menu">
+	<div class="header-sub-menu" id="d-sub-menu">
 		<a class="header-sign header-sign-in">로그인</a>
 		<a class="header-sign header-sign-up">회원가입</a>
+	</div>
+	
+	<div id="m-menu-list">
+		<span class="material-symbols-outlined" onclick="openMenu()">menu</span>
+	</div>
+</div>
+<div class="header-background">
+	여기가 뒷 배경이 될 부분?
+</div>
+<div id="header-overlay-wrap">
+	<span class="material-symbols-outlined" onclick="closeMenu()">close</span>
+	<div class="header-overlay-content">
+	  <a href="#">나의일정</a>
+	  <a href="#">커뮤니티</a>
+	  <a href="#">쇼핑하기</a>
+	  <a href="#">문의하기</a>
+	  <a href="#">공지사항</a>
 	</div>
 </div>
