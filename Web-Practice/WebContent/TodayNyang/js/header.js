@@ -47,9 +47,11 @@ $(document).ready(function(){
 
 function openMenu() {
 	document.getElementById("header-overlay-wrap").style.width = "100%";
+	document.getElementById("header-overlay-wrap").style.left = "0";
 }
 
 function closeMenu() {
 	document.getElementById("header-overlay-wrap").style.width = "0";
+	document.getElementById("header-overlay-wrap").style.left = "100%";
 	
 }

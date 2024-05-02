@@ -56,8 +56,8 @@
 		</ul>
 	</nav>
 	<div class="header-sub-menu" id="d-sub-menu">
-		<a class="header-sign header-sign-in">로그인</a>
-		<a class="header-sign header-sign-up">회원가입</a>
+		<a class="header-sign header-sign-in" href="">로그인</a>
+		<a class="header-sign header-sign-up" href="">회원가입</a>
 	</div>
 	
 	<div id="m-menu-list">
@@ -65,7 +65,6 @@
 	</div>
 </div>
 <div class="header-background">
-	여기가 뒷 배경이 될 부분?
 </div>
 <div id="header-overlay-wrap">
 	<span class="material-symbols-outlined" onclick="closeMenu()">close</span>
