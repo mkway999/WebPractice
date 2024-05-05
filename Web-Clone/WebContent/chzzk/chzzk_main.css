@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body {margin: 0; background-color: #141517;}
+a, button {outline: none; cursor: pointer;}
+button {border: none; background: transparent;}
+
+#rood {position: relative;}
+div.main-container {padding-top: 60px;}
+div.header-container {top:0; width: 240px; left: 0; position: fixed; z-index: 12000;}
+div.header-wrap {display: flex; flex-direction: column; height: 100%; width: 100%; z-index: 13000;}
+header.header-area {flex: none;}
+button.header-button {color: #dfe2ea; padding: 10px 4px 10px 19px; position: relative;}
